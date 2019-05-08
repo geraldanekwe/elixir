@@ -1,8 +1,9 @@
 {application,servey,
              [{applications,[kernel,stdlib,elixir,logger]},
               {description,"servey"},
-              {modules,['Elixir.Servy','Elixir.Servy.Conv',
+              {modules,['Elixir.Servy','Elixir.Servy.Bear',
+                        'Elixir.Servy.BearController','Elixir.Servy.Conv',
                         'Elixir.Servy.Handler','Elixir.Servy.Parser',
-                        'Elixir.Servy.Plugins']},
+                        'Elixir.Servy.Plugins','Elixir.Servy.Wildthings']},
               {registered,[]},
               {vsn,"0.1.0"}]}.
